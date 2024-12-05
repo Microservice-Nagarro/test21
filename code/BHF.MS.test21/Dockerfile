@@ -20,3 +20,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "BHF.MS.test21.dll"]
 
+
